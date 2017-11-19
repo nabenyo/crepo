@@ -10,12 +10,12 @@ SequenceEnum::SequenceEnum() {
 }
 
 SequenceEnum::SequenceEnum(string word){
-    this->container = word;
-    this->state = 1;
+    this->word = word;
+    this->state = 0;
 }
 
 void SequenceEnum::SetWord(string word){
-    this->container = word;
+    this->word = word;
 }
 
 void SequenceEnum::Deactivate(){
@@ -28,9 +28,9 @@ void SequenceEnum::Activate() {
 
 string SequenceEnum::GetWord(){
     if(state == 1){
-        string emit = container + container.substr(0, 2);
+        string emit = word + word.substr(0, 2);
         return emit;
     }else {
-        return this->container;
+        return this->word;
     }
 }

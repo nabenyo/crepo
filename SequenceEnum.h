@@ -11,7 +11,7 @@ using namespace std;
 
 class SequenceEnum {
 private:
-    string container;
+    string word;
     int state;
 
 public:

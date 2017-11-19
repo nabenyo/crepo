@@ -3,9 +3,10 @@
 
 int main() {
     SeqExtract test = SeqExtract("Nick");
-    cout << test.Extract("Ni");
+    cout << test.Extract("Ni") << endl;
     //cout << endl << test.Extract("ck") << endl;
     cout << endl << test.Extract("c") << endl;
+    cout << endl << test.Extract("ck") << endl;
     /*string word = "Nick";
     string extract = "ck";
     cout << word.substr(0,word.length()-extract.length()) << endl;

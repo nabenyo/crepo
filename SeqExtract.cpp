@@ -7,16 +7,17 @@
 
 SeqExtract::SeqExtract(string word)
         :SequenceEnum(word){
-    ExtractContainer = word;
+    //SeqExtractWord = word;
 }
 
-string SeqExtract::Extract(string word){
-    int wordLen = word.length();
-    int wordLoc = ExtractContainer.find(word);
-    if(ExtractContainer.find(word) == 0)
-        return ExtractContainer.substr(wordLoc + wordLen);
+string SeqExtract::Extract(string profer){
+    string SeqExtractWord = this->GetWord();
+    int wordLen = profer.length();
+    int wordLoc = SeqExtractWord.find(profer);
+    if(SeqExtractWord.find(profer) == 0)
+        return SeqExtractWord.substr(wordLoc + wordLen);
     else
 
-        return ExtractContainer.substr(0,wordLoc)
-               + ExtractContainer.substr(wordLoc + wordLen);
+        return SeqExtractWord.substr(0,wordLoc)
+               + SeqExtractWord.substr(wordLoc + wordLen);
 }
