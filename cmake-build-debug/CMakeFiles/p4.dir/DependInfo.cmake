@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nick/CLionProjects/p4/SeqExtract.cpp" "/home/nick/CLionProjects/p4/cmake-build-debug/CMakeFiles/p4.dir/SeqExtract.cpp.o"
-  "/home/nick/CLionProjects/p4/SequenceEnum.cpp" "/home/nick/CLionProjects/p4/cmake-build-debug/CMakeFiles/p4.dir/SequenceEnum.cpp.o"
-  "/home/nick/CLionProjects/p4/SpasEnum.cpp" "/home/nick/CLionProjects/p4/cmake-build-debug/CMakeFiles/p4.dir/SpasEnum.cpp.o"
-  "/home/nick/CLionProjects/p4/p4.cpp" "/home/nick/CLionProjects/p4/cmake-build-debug/CMakeFiles/p4.dir/p4.cpp.o"
+  "/home/nick/CLionProjects/crepo/SeqExtract.cpp" "/home/nick/CLionProjects/crepo/cmake-build-debug/CMakeFiles/p4.dir/SeqExtract.cpp.o"
+  "/home/nick/CLionProjects/crepo/SequenceEnum.cpp" "/home/nick/CLionProjects/crepo/cmake-build-debug/CMakeFiles/p4.dir/SequenceEnum.cpp.o"
+  "/home/nick/CLionProjects/crepo/SpasEnum.cpp" "/home/nick/CLionProjects/crepo/cmake-build-debug/CMakeFiles/p4.dir/SpasEnum.cpp.o"
+  "/home/nick/CLionProjects/crepo/p4.cpp" "/home/nick/CLionProjects/crepo/cmake-build-debug/CMakeFiles/p4.dir/p4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

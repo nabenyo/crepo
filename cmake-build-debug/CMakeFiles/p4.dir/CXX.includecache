@@ -6,41 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/nick/CLionProjects/p4/SeqExtract.cpp
+/home/nick/CLionProjects/crepo/SeqExtract.cpp
 SeqExtract.h
-/home/nick/CLionProjects/p4/SeqExtract.h
+/home/nick/CLionProjects/crepo/SeqExtract.h
 iostream
 -
 
-/home/nick/CLionProjects/p4/SeqExtract.h
+/home/nick/CLionProjects/crepo/SeqExtract.h
 string
 -
 SequenceEnum.h
-/home/nick/CLionProjects/p4/SequenceEnum.h
+/home/nick/CLionProjects/crepo/SequenceEnum.h
 
-/home/nick/CLionProjects/p4/SequenceEnum.cpp
+/home/nick/CLionProjects/crepo/SequenceEnum.cpp
 SequenceEnum.h
-/home/nick/CLionProjects/p4/SequenceEnum.h
+/home/nick/CLionProjects/crepo/SequenceEnum.h
 iostream
 -
 
-/home/nick/CLionProjects/p4/SequenceEnum.h
+/home/nick/CLionProjects/crepo/SequenceEnum.h
 string
 -
 
-/home/nick/CLionProjects/p4/SpasEnum.cpp
+/home/nick/CLionProjects/crepo/SpasEnum.cpp
 SpasEnum.h
-/home/nick/CLionProjects/p4/SpasEnum.h
+/home/nick/CLionProjects/crepo/SpasEnum.h
 
-/home/nick/CLionProjects/p4/SpasEnum.h
+/home/nick/CLionProjects/crepo/SpasEnum.h
 string
 -
 SequenceEnum.h
-/home/nick/CLionProjects/p4/SequenceEnum.h
+/home/nick/CLionProjects/crepo/SequenceEnum.h
 
-/home/nick/CLionProjects/p4/p4.cpp
+/home/nick/CLionProjects/crepo/p4.cpp
 iostream
 -
 SeqExtract.h
-/home/nick/CLionProjects/p4/SeqExtract.h
+/home/nick/CLionProjects/crepo/SeqExtract.h
 

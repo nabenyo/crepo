@@ -11,5 +11,12 @@ SeqExtract::SeqExtract(string word)
 }
 
 string SeqExtract::Extract(string word){
-    return ExtractContainer.substr(ExtractContainer.find(word)+word.length());
+    int wordLen = word.length();
+    int wordLoc = ExtractContainer.find(word);
+    if(ExtractContainer.find(word) == 0)
+        return ExtractContainer.substr(wordLoc + wordLen);
+    else
+
+        return ExtractContainer.substr(0,wordLoc)
+               + ExtractContainer.substr(wordLoc + wordLen);
 }
