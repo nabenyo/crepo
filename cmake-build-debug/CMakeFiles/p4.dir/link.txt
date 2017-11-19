@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/p4.dir/p4.cpp.o CMakeFiles/p4.dir/SequenceEnum.cpp.o CMakeFiles/p4.dir/SeqExtract.cpp.o CMakeFiles/p4.dir/SpasEnum.cpp.o  -o p4 

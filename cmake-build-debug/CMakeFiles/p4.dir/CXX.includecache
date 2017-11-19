@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nick/CLionProjects/p4/SeqExtract.cpp
+SeqExtract.h
+/home/nick/CLionProjects/p4/SeqExtract.h
+iostream
+-
+
+/home/nick/CLionProjects/p4/SeqExtract.h
+string
+-
+SequenceEnum.h
+/home/nick/CLionProjects/p4/SequenceEnum.h
+
+/home/nick/CLionProjects/p4/SequenceEnum.cpp
+SequenceEnum.h
+/home/nick/CLionProjects/p4/SequenceEnum.h
+iostream
+-
+
+/home/nick/CLionProjects/p4/SequenceEnum.h
+string
+-
+
+/home/nick/CLionProjects/p4/SpasEnum.cpp
+SpasEnum.h
+/home/nick/CLionProjects/p4/SpasEnum.h
+
+/home/nick/CLionProjects/p4/SpasEnum.h
+string
+-
+SequenceEnum.h
+/home/nick/CLionProjects/p4/SequenceEnum.h
+
+/home/nick/CLionProjects/p4/p4.cpp
+iostream
+-
+SeqExtract.h
+/home/nick/CLionProjects/p4/SeqExtract.h
+
