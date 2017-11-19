@@ -13,9 +13,13 @@ using namespace std;
 class SeqExtract: public SequenceEnum {
 public:
     SeqExtract(string word);
+    //Description:
+    //Preconditions:
+    //Postconditions:
     string Extract(string profer);
-    //Description: Valid input - sequence extracted using this method must be continuous. Example: if extracting from the word
-    //"statement", "tate", "state", and "ment" are valid inputs, "stment" is not.
+    //Description: Valid input - sequence extracted using this method must be
+    //continuous. Example: if extracting from the word "statement", "tate",
+    //"state", and "ment" are valid inputs, "stment" is not.
     //Preconditions:
     //Postconditions:
 

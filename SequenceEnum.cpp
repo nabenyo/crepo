@@ -10,8 +10,9 @@ SequenceEnum::SequenceEnum() {
 }
 
 SequenceEnum::SequenceEnum(string word){
-    this->word = word;
-    this->state = 0;
+    if(word.length() > 3)
+        this->word = word;
+        this->state = 0;
 }
 
 void SequenceEnum::SetWord(string word){
